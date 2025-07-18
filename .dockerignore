@@ -1,0 +1,29 @@
+# Node
+node_modules
+npm-debug.log
+yarn.lock
+
+# Laravel
+app/vendor
+app/node_modules
+app/storage/*
+!app/storage/app/public
+
+# Sensitive files
+app/.env
+app/.env.*
+app/.git
+
+# Docker build artifacts
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# IDEs & System
+*.log
+*.DS_Store
+*.swp
+*.bak
+*.tmp
+.idea/
+.vscode/
